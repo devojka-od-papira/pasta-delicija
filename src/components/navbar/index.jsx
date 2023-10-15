@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom'
 import shoppingCard from '../../assets/images/shopping-cart.svg'
 
 import styles from './Navbar.module.scss'
+import Logo from '../logo'
 
 function Navbar() {
 	return (
 		<nav className={styles.navbar}>
+			<Logo />
 			<Link to="onama">O nama</Link>
 			<Link to="pasta">Pasta</Link>
 			<Link to="contact">Contact</Link>
