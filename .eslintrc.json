@@ -38,6 +38,8 @@
         "import/extensions": "off",
         "import/no-extraneous-dependencies": "off",
         "react/require-default-props": "off",
-        "import/prefer-default-export": "off"
+        "import/prefer-default-export": "off",
+        "react/function-component-definition":"off",
+        "react/prop-types": "off"
     }
 }

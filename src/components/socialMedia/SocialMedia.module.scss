@@ -1,0 +1,20 @@
+.img {
+    width: 20px;
+    height: 20px;
+}
+
+.wrapper {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(68, 68, 68);
+    justify-content: center;
+    &:hover {
+        border-radius: 50%;
+        background-color: gray;
+    }
+}
+
+
