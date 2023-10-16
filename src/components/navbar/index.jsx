@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../logo'
 import shoppingCard from '../../assets/images/shopping-cart.svg'
 
 import styles from './Navbar.module.scss'
-import Logo from '../logo'
 
 function Navbar() {
 	return (
