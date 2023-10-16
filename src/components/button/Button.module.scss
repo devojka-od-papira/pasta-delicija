@@ -1,0 +1,18 @@
+.btn {
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+.filled {
+    outline: none;
+    border: none;
+    background-color: rgb(159, 216, 73);
+    color: white;
+}
+
+.outline {
+    border: 1px solid rgb(228, 225, 225);
+    background-color: whitesmoke;
+    color: gray;
+}
