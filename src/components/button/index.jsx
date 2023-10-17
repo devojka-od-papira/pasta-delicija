@@ -4,7 +4,6 @@ import cx from 'classnames'
 import styles from './Button.module.scss'
 
 const Button = ({ text, variant }) => {
-	console.log('variant', variant)
 	return (
 		<button
 			type="button"
