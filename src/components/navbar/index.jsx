@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import shoppingCard from '../../assets/icons/shopping-cart.svg'
+import shoppingCard from '../../assets/images/shopping-cart.svg'
 
 import styles from './Navbar.module.scss'
 

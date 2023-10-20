@@ -1,5 +1,5 @@
 import React from 'react'
-import colorLogo from '../../assets/icons/color-logo.svg'
+import colorLogo from '../../assets/images/color-logo.svg'
 
 import styles from './Logo.module.scss'
 
