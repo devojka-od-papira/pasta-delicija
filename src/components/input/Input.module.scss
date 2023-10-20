@@ -1,9 +1,11 @@
+@import "/src/assets/styles/variable.scss";
+
 .input {
     width: 100%;
     box-sizing: border-box;
     padding: 12px 20px;
     border-radius: 20px;
-    border: 1px solid rgb(196, 196, 196);
+    border: 1px solid $primary-gray;
     cursor: pointer;
     outline: none;
 }
