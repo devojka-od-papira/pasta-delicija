@@ -1,0 +1,14 @@
+@import "/src//assets/styles/variable.scss";
+
+textarea {
+    border: 1px solid $primary-gray;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    resize: none;
+    
+    &:focus-visible {
+        outline: $primary-gray;
+        
+    }
+}
