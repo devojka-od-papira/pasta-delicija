@@ -6,6 +6,7 @@ textarea {
     box-sizing: border-box;
     padding: 20px;
     resize: none;
+    
     &:focus-visible {
         outline: $primary-gray;
         
