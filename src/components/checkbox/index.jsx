@@ -7,7 +7,7 @@ const Checkbox = ({ text }) => {
 		<div className={styles.container}>
 			<label htmlFor={text}>
 				{text}
-				<input type="radio" id={text} name="radio" value={text} checked />
+				<input type="radio" id={text} name="radio" value={text} />
 			</label>
 		</div>
 	)

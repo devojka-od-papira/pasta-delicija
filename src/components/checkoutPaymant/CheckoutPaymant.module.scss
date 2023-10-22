@@ -1,0 +1,61 @@
+@import '/src/assets/styles/variable.scss';
+
+.fieldset {
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 50px;
+    border: 0.7px solid gray;
+
+    legend {
+        margin: 0 auto;
+        font-size: 28px;
+        padding: 0px 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+.contactWrapper {
+    input {
+        margin-bottom: 10px;
+       }
+}
+
+.shippingWrapper {
+    input {
+     margin-bottom: 10px;
+    }
+ } 
+
+.customerWrapper {
+    display: flex;
+    input {
+        margin-right: 5px;
+    }
+}
+
+.placeWrapper {
+    display: flex;
+    input {
+        margin-right: 5px;
+    }
+}
+
+.paymentWrapper {
+    box-sizing: border-box;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+.divider {
+    width: 100%;
+    height: 0.7px;
+    background-color: $primary-gray;
+}
